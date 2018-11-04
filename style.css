@@ -1,0 +1,90 @@
+      body {
+          background-color: #f8f6f6;
+          font-family: Roboto;
+      }
+      
+      .vmc-centered {
+          padding: 100px 6%;
+          width: 100vw;
+      }
+      
+      .vmc-centered img {
+          width: 300px;
+          height: 350px;
+          transition: all 1s ease;
+          cursor: pointer;
+      }
+      
+      .vmc-centered .vmc_active img {
+          transform: scale(1.2);
+          box-shadow: 0px 4px 15px rgba(83, 215, 183, 0.74);
+      }
+      
+      .blockText {
+          width: 300px;
+      }
+      
+      .text {
+          background-color: rgba(0, 0, 0, 0.5);
+          position: relative;
+          top: -60px;
+          transition: all 1s;
+      }
+      
+      .vmc-centered .vmc_active .text {
+          transform: scale(1.2);
+          top: -30px;
+      }
+      
+      .vmc-centered h1,
+      .vmc-centered h4 {
+          width: 300px;
+          transition: all 1s ease;
+          text-transform: uppercase;
+          font-weight: 500;
+          line-height: 20px;
+          height: 25px;
+          padding: 0 10px;
+          text-align: left;
+          position: relative;
+          margin: 0;
+      }
+      
+      .vmc-centered h4 {
+          font-size: 14px;
+          color: white;
+      }
+      
+      .vmc-centered h1 {
+          font-size: 12px;
+          color: #53d7b7;
+          padding-top: 10px;
+      }
+      
+      .vmc-arrow-left,
+      .vmc-arrow-right {
+          position: absolute;
+          top: 45%;
+          left: 0px;
+          width: 35px;
+          height: 50px;
+          margin-top: -25px;
+          overflow: hidden;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+          text-align: center;
+          background-color: white;
+      }
+      
+      .vmc-arrow-left {
+          background: url(img/Layer-1.png);
+          background-repeat: no-repeat;
+          transform: rotate(180deg);
+      }
+      
+      .vmc-arrow-right {
+          background: url(img/Layer-1.png);
+          background-repeat: no-repeat;
+          left: auto;
+          right: 0px;
+      }

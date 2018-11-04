@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dist/jquery.vm-carousel.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="dist/jquery.vm-carousel.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <ul class="vmcarousel-centered-infitine vmc-centered">
+        <li>
+            <div class='blockText'><img src="img/1.jpg" alt="">
+                <div class="text ">
+                    <h1>Напівлюкс</h1>
+                    <h4>100 UAH</h4></div>
+            </div>
+        </li>
+        <li>
+            <div class='blockText'><img src="img/2.jpg" alt="">
+                <div class="text">
+                    <h1>Люкс</h1>
+                    <h4>100 UAH</h4> </div>
+            </div>
+        </li>
+        <li>
+            <div class='blockText'><img src="img/3.jpg" alt="">
+                <div class="text">
+                    <h1>Покращений люкс</h1>
+                    <h4>100 UAH</h4> </div>
+            </div>
+        </li>
+        <li>
+            <div class='blockText'><img src="img/4.jpg" alt="">
+                <div class="text">
+                    <h1>стандарт</h1>
+                    <h4>100 UAH</h4> </div>
+            </div>
+        </li>
+        <li>
+            <div class='blockText'><img src="img/5.jpg" alt="">
+                <div class="text">
+                    <h1>покращений стандарт</h1>
+                    <h4>100 UAH</h4> </div>
+            </div>
+        </li>
+        <li>
+            <div class='blockText'> <img src="img/6.jpg" alt="">
+                <div class="text">
+                    <h1>економ</h1>
+                    <h4>100 UAH</h4> </div>
+            </div>
+        </li>
+        <li>
+            <div class='blockText'><img src="img/7.jpg" alt="">
+                <div class="text">
+                    <h1>покращений стандарт</h1>
+                    <h4>100 UAH</h4> </div>
+            </div>
+        </li>
+    </ul>
+    <script>
+        jQuery(function ($) {
+            $('.vmcarousel-centered-infitine').vmcarousel({
+                centered: true
+                , start_item: 1
+                , autoplay: false
+                , infinite: true
+            });
+            //            var textMargin = $('.vmc_active').width() -20 +'px';
+            ////            console.log(textMargin);
+            //            $('.text').css({
+            //                marginTop: textMargin
+            //            });
+        });
+    </script>
+</body>
+
+</html>
